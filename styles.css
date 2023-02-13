@@ -6,7 +6,11 @@
     color: rgb(176, 176, 176);
 }
 
-.navbar {
+.nav-link, .navbar-brand {
+    color: white;
+}
+
+hr {
     color: white;
 }
 
@@ -18,5 +22,24 @@
 }
 
 .btn {
+    border-color: white;
     color: white;
 }
+
+.btn:hover {
+    color: rgb(50, 137, 123);
+    background-color: white;
+}
+
+.card {
+    width: 50rem;
+    margin: 15rem auto;
+}
+
+.card h5 {
+    text-align: center;
+}
+.card-body label{
+    display: flex;
+}
+
